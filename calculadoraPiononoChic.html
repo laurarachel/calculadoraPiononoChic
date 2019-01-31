@@ -1,0 +1,154 @@
+
+ <html>
+      <head>
+       <meta charset="UTF-8">
+       <meta name="viewport" content="width=device-width, initial-scale=1.0">
+       <meta http-equiv="X-UA-Compatible" content="ie=edge">
+       
+       <script type="text/javascript">
+         function suma(a, b)
+          {
+           var r=Number(a)+Number(b);
+           alert (r);
+          } 
+              
+          function resta(a, b)
+          {
+           var r=Number(a)-Number(b);
+           alert (r);
+          }
+           
+          function multiplicacion(a, b)
+          {
+           var r=Number(a)*Number(b);  
+           alert (r);
+          }
+           
+           function  division(a,b)
+          {
+            var r=Number(a)/Number(b);   
+            alert (r);
+          }
+
+       </script> 
+       
+       <style>
+       *{
+         margin:0px;
+         padding:0px;
+         box-sizing: border-box;
+        }
+        .main{
+         background-color: #0097A7;
+         height: 678px;
+        }
+        h1{
+         display:relative;
+         position: absolute;
+         color: #212121;
+         margin: 20px auto 20px 220px;
+         font-size: 40px;
+        }
+        h2{
+         display:relative;
+         position: absolute;
+         color: #757575;
+         margin: 70px auto 20px 310px;
+         font-size: 30px;
+        }
+        
+        .input1{
+         display:relative;
+         position: absolute;
+         margin: 200px auto 20px 200px;
+         font-size: 30px;
+         background-color: #FF5722;
+         cursor: pointer;
+         width: 200px;
+        }
+        
+        .input2{
+         display:relative;
+         position: absolute;
+         margin: 200px auto 20px 450px;
+         font-size: 30px;
+         background-color: #FF5722;
+         cursor: pointer;
+         width: 200px;
+        }
+        
+        .input3{
+         display:relative;
+         position: absolute;
+         margin: 200px auto 20px 700px;
+         font-size: 30px;
+         background-color: #FF5722;
+         cursor: pointer;
+         width: 200px;
+        }
+        
+        .input4{
+         display:relative;
+         position: absolute;
+         margin: 200px auto 20px 950px;
+         font-size: 30px;
+         background-color: #FF5722;
+         cursor: pointer;
+         width: 200px;
+        }
+        
+        input:hover{
+         background-color: #757575;
+         
+        }
+        
+        #a{
+         display:relative;
+         position: absolute;
+         margin: 300px auto 20px 450px;
+         font-size: 30px;
+         width: 160px;
+         height: 100px;
+         text-align: center;
+        }
+        
+        #b{
+         display:relative;
+         position: absolute;
+         margin: 300px auto 20px 720px;
+         font-size: 30px;
+         width: 160px;
+         height: 100px;
+         text-align: center;
+        }
+       </style>
+        
+      </head>
+      <body>
+       <div class="main">
+        <h1>Bienvenidos a la calculadora de ofertas de PiononoChic!</h1>
+        <h2>Empieza a calcular cuanto vas a ahorrar con nuestras promos!</h2>
+          <div>
+
+              <input id= "a" type="text"/>
+              <input id= "b" type= "text"/>
+              
+              <input class="input1" type= "button" onclick= "suma (document.getElementById('a'). 
+              value, document.getElementById('b').value);" value = "suma" />
+              
+              <input class="input2" type= "button" onclick= "resta (document.getElementById('a'). 
+              value, document.getElementById('b').value);" value = "resta" />
+              
+              <input class="input3" type= "button" onclick= "multiplicacion (document.getElementById('a'). 
+              value, document.getElementById('b').value);" value = "multiplicacion" />
+              
+              <input class="input4" type= "button" onclick= "division (document.getElementById('a'). 
+              value, document.getElementById('b').value);" value = "division" />
+          </div>
+       </div>
+          
+      </body>
+      
+
+      
+ </html>
